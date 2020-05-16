@@ -27,6 +27,7 @@ def remove_strawberry(contacts)
        favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
      }
    }
+  
   result = contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
   result.to_change ("strawberry")
 end
